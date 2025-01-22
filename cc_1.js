@@ -1,5 +1,5 @@
 //Task 1//
-let employeeName = '';
+let employeeName = 'Name of Employee';
 const employeeID = 12345;
 var isActive = true;
 
@@ -8,6 +8,7 @@ console.log("Employee ID:", employeeID, "- Type:", typeof employeeID);
 console.log("Is Active:", isActive, "- Type:", typeof isActive);
 
 //Task 2//
+//I chose Hoodie as my product for the e-com platoform//
 let productName = 'Hoodie';
 const productPrice = 49.99;
 var isAvailable = true;
@@ -17,6 +18,7 @@ console.log("Product Price:", productPrice, "- Type:", typeof productPrice);
 console.log("Is Available:", isAvailable, "- Type:", typeof isAvailable);
 
 //Task 3//
+//The first line below declares the accountbalance as a variable as 1000 dollars//
 let accountBalance = 1000;
 
 accountBalance += 500;
@@ -32,3 +34,6 @@ accountBalance /=2
 console.log(accountBalance)
 
 //Task 4//
+let customerName = 'Jonathon Dali';
+let welcomeMessage = "Dear " + customerName + ", thank you for shopping with us!";
+console.log(welcomeMessage);
