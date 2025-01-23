@@ -37,3 +37,13 @@ console.log(accountBalance)
 let customerName = 'Jonathon Dali';
 let welcomeMessage = "Dear " + customerName + ", thank you for shopping with us!";
 console.log(welcomeMessage);
+
+//Task 5// 
+let isLoggedIn = true; 
+//Doing a logical operation below for the isLoggedInn variable//
+if (isLoggedIn) {
+    console.log("Access granted: User is logged in.");
+} else {
+    console.log("Access denied: User is not logged in.");
+}
+//DONE//
